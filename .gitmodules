@@ -61,9 +61,9 @@
 [submodule "widgets/widget-axes"]
 	path = widgets/widget-axes
 	url = https://github.com/GMKdotUS/widget-axes.git
-[submodule "widgets/widget-tinyg"]
-	path = widgets/widget-tinyg
-	url = https://github.com/chilipeppr/widget-tinyg.git
+[submodule "widgets/widget-grbl1"]
+	path = widgets/widget-grbl1
+	url = https://github.com/GMKdotUS/widget-grbl1.git
 [submodule "widgets/widget-cayenn"]
 	path = widgets/widget-cayenn
 	url = https://github.com/chilipeppr/widget-cayenn.git
@@ -71,7 +71,7 @@
 	path = widgets/widget-configtinyg
 	url = https://github.com/chilipeppr/widget-configtinyg.git
 [submodule "widgets/GMKdotUS-widget-grbl1"]
-	path = widgets/xpix-widget-tinyg
+	path = widgets/GMKdotUS-widget-grbl1
 	url = https://github.com/GMKdotUS/widget-grbl1.git
 [submodule "widgets/xpix-widget-3dviewer"]
 	path = widgets/xpix-widget-3dviewer
