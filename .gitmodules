@@ -60,7 +60,7 @@
 	url = https://github.com/chilipeppr/widget-gcodelist.git
 [submodule "widgets/widget-axes"]
 	path = widgets/widget-axes
-	url = https://github.com/chilipeppr/widget-axes.git
+	url = https://github.com/GMKdotUS/widget-axes.git
 [submodule "widgets/widget-tinyg"]
 	path = widgets/widget-tinyg
 	url = https://github.com/chilipeppr/widget-tinyg.git
