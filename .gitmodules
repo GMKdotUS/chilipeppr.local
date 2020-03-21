@@ -63,13 +63,13 @@
 	url = https://github.com/GMKdotUS/widget-axes.git
 [submodule "widgets/widget-grbl1"]
 	path = widgets/widget-grbl1
-	url = https://github.com/GMKdotUS/widget-grbl1.git
+	url = https://github.com/jpadie/grbl1-test-widget.git
 [submodule "widgets/widget-cayenn"]
 	path = widgets/widget-cayenn
 	url = https://github.com/chilipeppr/widget-cayenn.git
 [submodule "widgets/widget-configtinyg"]
 	path = widgets/widget-configtinyg
-	url = https://github.com/chilipeppr/widget-configtinyg.git
+	url = https://github.com/jpadie/grbl1-test-widget.git
 [submodule "widgets/GMKdotUS-widget-grbl1"]
 	path = widgets/GMKdotUS-widget-grbl1
 	url = https://github.com/GMKdotUS/widget-grbl1.git
