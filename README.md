@@ -34,7 +34,7 @@ Please check the Installation guide's to know how you can install this local on 
 * login via ssh to raspberry as user "pi"
 ```
 cd /home/pi
-git clone --recursive https://github.com/xpix/chilipeppr.local
+git clone --recursive https://github.com/GMKdotUS/chilipeppr.local
 sudo apt-get install nginx # install webserver
 sudo /etc/init.d/nginx start
 cd /var/www/html
@@ -45,7 +45,7 @@ sudo ln -s /home/pi/chilipeppr.local .
 
 ## Windows installation
 * install [mongoose](https://www.cesanta.com/products/binary) and [git-bash](https://git-for-windows.github.io/) for windows
-* start git-bash: ````git clone --recursive https://github.com/xpix/chilipeppr.local````
+* start git-bash: ````git clone --recursive https://github.com/GMKdotUS/chilipeppr.local````
 * start mongoose and set this to the root git directory
 * surf to http://127.0.0.1:8080/chilipeppr.local/workspace_tinyg.html
 
@@ -58,7 +58,7 @@ sudo ln -s /home/pi/chilipeppr.local .
 * make a git submodule via git and mark this widget as your own:
 ````
 cd chilipeppr.local/widgets/
-git submodule add https://github.com/xpix/widget-tinyg.git xpix-widget-tinyg
+git submodule add https://github.com/GMKdotUS/widget-grbl1.git xpix-widget-grbl1
 cd xpix-widget-tinyg
 ````
 * create a branch for your local changes ````git checkout -b my_new_feature_branch````
@@ -66,9 +66,9 @@ cd xpix-widget-tinyg
 ````
 // TinyG
 chilipeppr.load(
-    "com-chilipeppr-tinyg",
-    // "widgets/widget-tinyg/auto-generated-widget.html",
-    "widgets/xpix-widget-tinyg/auto-generated-widget.html",
+    "com-chilipeppr-grbl1",
+    // "widgets/widget-grbl1/auto-generated-widget.html",
+    "widgets/xpix-widget-grbl1/auto-generated-widget.html",
 ...
 ````
 * make ur changes
