@@ -40,14 +40,14 @@ sudo /etc/init.d/nginx start
 cd /var/www/html
 sudo ln -s /home/pi/chilipeppr.local .
 ```
-* call chilipepper on your raspberry in a browser: http://127.0.0.1/chilipeppr.local/workspace_tinyg.html
+* call chilipepper on your raspberry in a browser: http://127.0.0.1/chilipeppr.local/workspace_grbl1.html
 
 
 ## Windows installation
 * install [mongoose](https://www.cesanta.com/products/binary) and [git-bash](https://git-for-windows.github.io/) for windows
 * start git-bash: ````git clone --recursive https://github.com/GMKdotUS/chilipeppr.local````
 * start mongoose and set this to the root git directory
-* surf to http://127.0.0.1:8080/chilipeppr.local/workspace_tinyg.html
+* surf to http://127.0.0.1:8080/chilipeppr.local/workspace_grbl1.html
 
 ## sync fork
 * https://help.github.com/articles/configuring-a-remote-for-a-fork/
@@ -59,7 +59,7 @@ sudo ln -s /home/pi/chilipeppr.local .
 ````
 cd chilipeppr.local/widgets/
 git submodule add https://github.com/GMKdotUS/widget-grbl1.git xpix-widget-grbl1
-cd xpix-widget-tinyg
+cd xpix-widget-grbl1
 ````
 * create a branch for your local changes ````git checkout -b my_new_feature_branch````
 * change the url in your workspace
