@@ -58,8 +58,8 @@ sudo ln -s /home/pi/chilipeppr.local .
 * make a git submodule via git and mark this widget as your own:
 ````
 cd chilipeppr.local/widgets/
-git submodule add https://github.com/GMKdotUS/widget-grbl1.git xpix-widget-grbl1
-cd xpix-widget-grbl1
+git submodule add https://github.com/GMKdotUS/widget-grbl1.git GMKdotUS-widget-grbl1
+cd GMKdotUS-widget-grbl1
 ````
 * create a branch for your local changes ````git checkout -b my_new_feature_branch````
 * change the url in your workspace
