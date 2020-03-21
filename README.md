@@ -1,4 +1,6 @@
 ### chilipeppr.local
+This is an attempt at an offline GRBL 1 implementation
+
 Solution for an offline chilipeppr that can run local on your machine (Windows/Linux)
 
 I want to start to build an chilipeppr widget, but after some time i was frustrated. First of all i have to search in a lot of github repositorys for the correct code pieces, that i needed to devlop a cp widget. On the other hand, my dev machine must have a internet connection, to run chilipeppr.
