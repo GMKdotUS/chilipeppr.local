@@ -70,9 +70,9 @@
 [submodule "widgets/widget-configtinyg"]
 	path = widgets/widget-configtinyg
 	url = https://github.com/chilipeppr/widget-configtinyg.git
-[submodule "widgets/xpix-widget-tinyg"]
+[submodule "widgets/GMKdotUS-widget-grbl1"]
 	path = widgets/xpix-widget-tinyg
-	url = https://github.com/xpix/widget-tinyg.git
+	url = https://github.com/GMKdotUS/widget-grbl1.git
 [submodule "widgets/xpix-widget-3dviewer"]
 	path = widgets/xpix-widget-3dviewer
 	url = https://github.com/xpix/widget-3dviewer.git
